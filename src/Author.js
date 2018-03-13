@@ -4,7 +4,7 @@ import './App.css';
 class Author extends Component {
 	render() {
 		return (
-			<p> {this.props.text}</p>
+			<p>written by:  {this.props.data}</p>
 		)
 	}
 }

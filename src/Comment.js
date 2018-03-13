@@ -4,7 +4,7 @@ import './App.css';
 class Comment extends Component {
 	render() {
 		return (
-			<p> written by: {this.props.text}</p>
+			<p> {this.props.text}</p>
 		)
 	}
 }
